@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../img/bg2_1920x1200.jpg');
+}
+
+hr{
+  margin: 20px 0;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+#header-top{
+  color: white;
+  font-size: 25px;
+}
+
+#header-top img{
+  width: 150px;
+  /* per allineare un'immagine e un testo centrati dare il vertical-align all'immagine e non al testo */
+  vertical-align: middle;
+}
+
+#header-bottom{
+  padding-top: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+#header-bottom button{
+  padding: 1px 5px;
+}
+
+#header-bottom .counter{
+  display: inline-block;
+  background-color: #FCA600;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+main{
+  padding-top: 20px;
+}
+
+.email-row{
+  background-color: #D3D3D3;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.email-row.unread{
+  background-color: white;
+}
+
+.text-mail::before{
+  content: ' - ';
+}
+
+.text-mail::after{
+  content: '...';
+}
+
+.star::after{
+  content: '\22C6';
+}
+
+footer{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+ 
+}
+
+
+footer span{
+  font-size: 16px;
+  font-style: italic;
+}
